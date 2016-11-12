@@ -15,12 +15,9 @@ These scripts will clone the repository to /repositories/ folder on your HDD , i
 wget -P /repositories/   -> change to the location you want .
 
 After cloning the git , go to yout git folder in your HDD and apply execution permissions to the scripts :
-chmod +x debian 
-chmod +x debsec
-chmod +x perl
-chmod +x perlm
-chmod +x python
-chmod +x ruby
+chmod +x script name
+
+
 
 to execute the script just write on scripts folder :
 ./script name
