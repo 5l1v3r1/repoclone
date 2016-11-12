@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo "Debian Security repository (amd64/i386) will be now cloned to your HDD under the folder /repositories/"
+sleep 5s
+echo "the cloning process clould take 1 day to finish , if you want to abort then press CTRL + C now ."
+sleep 10s
+wget -P /repositories/ -m -np -nH -N --timestamping  robots=off -N --reject "*sparc.gz","*s390x.gz","*s390.gz","*powepc.gz","*mipsel.gz","*mips.gz","*kfreebsd-i386.gz","*kfreebsd-amd64.gz","*ia64.gz","*ia64.gz","*armhf.gz","*armel.gz","*ppc64el.gz","*arm64.gz","*powerpc.gz","*mips64el.gz","*hurd-i386.gz","*sparc.deb","*s390x.deb","*s390.deb","*powepc.deb","*mipsel.deb","*mips.deb","*kfreebsd-i386.deb","*kfreebsd-amd64.deb","*ia64.deb","*ia64.deb","*armhf.deb","*armel.deb","*ppc64el.deb","*arm64.deb","*powerpc.deb","*mips64el.deb","*hurd-i386.deb","*sparc.udeb","*s390x.udeb","*s390.udeb","*powepc.udeb","*mipsel.udeb","*mips.udeb","*kfreebsd-i386.udeb","*kfreebsd-amd64.udeb","*ia64.udeb","*ia64.udeb","*armhf.udeb","*armel.udeb","*ppc64el.udeb","*arm64.udeb","*powerpc.udeb","*mips64el.udeb","*hurd-i386.udeb","index.html","*.html","*.html*" ftp://mirror.as35701.net/debian-security/"*.html","*.html*" ftp://mirror.as35701.net/debian-security/
+echo "Clone completed"
