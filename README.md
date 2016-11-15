@@ -22,4 +22,9 @@ chmod +x script name
 to execute the script just write on scripts folder :
 ./script name
 
+Requirements : Wget
+
+install Wget in case you dont have it in your system :
+apt-get install wget
+
 
