@@ -8,6 +8,12 @@ perl : Clone only Cpan (Perl) source repository
 perlm : Clone only Cpan (Modules by name) repository
 python : Clone only Python (source code) repository
 ruby : Clone only Ruby /source code) repository
+openwrt : clone full repository of Openwrt
+pfsense : Clone full repository of Pfsense
+
+repo : nginx server configuration file to be added to "/etc/nginx/sites-enabled/" directory
+
+note : by default the nginx file is pointed to port 80 , but if you want to user a different port then edit the file and change the listening port
 
 Information :
 These scripts will clone the repository to /repositories/ folder on your HDD , if you want to change the location then edit the scripts and where it is :
