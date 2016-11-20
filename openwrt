@@ -2,22 +2,22 @@
 clear
 echo "Cloning/Updating Openwrt repository Chaos Calmer"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 echo "Cloning/Updating Openwrt repository Barrier Breaker"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 echo "Cloning/Updating Openwrt repository Attitude Adjustment"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 echo "Cloning/Updating Openwrt repository Backfire"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 echo "Cloning/Updating Openwrt repository Kamikaze"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 echo "Cloning/Updating Openwrt repository White Russian"
 sleep 5s
-wget -P /media/disk4/repo/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
+wget -P /repositories/openwrt/ -m -np -nH -N --timestamping -e robots=off -N --reject "index.html","*.html","*.html*" http:$
 clear
 echo "All repositories of Openwrt were cloned"
 sleep 5s
