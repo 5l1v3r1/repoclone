@@ -1,0 +1,5 @@
+clear
+echo "Going to clone Pfsense full repository to : /repositories/ , if you want to cancel then press CRTL+C Now"
+sleep 10s
+wget -P /repositories/pfsense/ -r -e robots=off  -np -nH -N --timestamping --reject "index.html","*.html","*.html*" https://atxfiles.pfsense.org/mirror/downloads/
+echo "Pfsense repository copy as finished."
