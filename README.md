@@ -10,6 +10,7 @@ python : Clone only Python (source code) repository
 ruby : Clone only Ruby /source code) repository
 openwrt : clone full repository of Openwrt
 pfsense : Clone full repository of Pfsense
+opnsense : Clone full repository of OPNSense
 
 repo : nginx server configuration file to be added to "/etc/nginx/sites-enabled/" directory
 
