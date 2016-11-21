@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo "Cloning/Updating Opnsense repository. Press CRTL+C to Cancel "
+sleep 5s
+wget -P /repositories/opnsense/ -m -np -nH -N --timestamping  -e robots=off -N --reject "index.html","*.html","*.html*" https://opnsense.aivian.org/
+clear
+echo "Finished the Clone/Update of OPNSense Repository"
+sleep 5s
+exit
