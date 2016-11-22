@@ -29,9 +29,9 @@ chmod +x script name
 to execute the script just write on scripts folder :<br />
 ./script name<br />
 
-Requirements : Wget<br />
+Requirements : Wget , Git<br />
 
 install Wget in case you dont have it in your system :<br />
-apt-get install wget<br />
+apt-get install wget git<br />
 
 
