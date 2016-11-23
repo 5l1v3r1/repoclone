@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo "Cloning/Updating Dotdeb repository. Press CRTL+C to Cancel "
+sleep 5s
+wget -P /repositories/dotdeb/ -m -np -nH -N --timestamping  robots=off -N --reject "index.html","*.html","*.html*" http://dotdeb.jine.se/
+clear
+echo "Finished the Clone/Update of Dotdeb Repository"
+sleep 5s
+exit
