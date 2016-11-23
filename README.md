@@ -12,6 +12,7 @@ openwrt : clone full repository of Openwrt<br />
 pfsense : Clone full repository of Pfsense<br />
 opnsense : Clone full repository of OPNSense<br />
 dotdeb : Clone full repository of Dotdeb (PHP/Nginx)<br />
+kali : Clone full repository of Kali Linux Wheezy/Jessie <br />
 
 repo : nginx server configuration file to be added to "/etc/nginx/sites-enabled/" directory <br />
 
