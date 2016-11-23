@@ -1,0 +1,9 @@
+#!/bin/bash
+clear
+echo "Going to Clone/Update Kali Linux repositories from Moto/Sana . To Cancel press CTRL+C now"
+sleep 10
+#to change repository destination change "/repositories/kali/" to whatever the location you want
+wget -P /repositories/kali/ -r -e robots=off -np -nH -N --timestamping --reject "index.html","*.html","*.html" http://old.kali.org/kali/
+echo "Kali Linux Moto/Sana repositories cloned , add to your sources.list (deb http://yourserverip/kali/kali moto main non-free contrib) for kali wheezy updates , or (deb http://yourserverip/kali/kali sana main non-free contrib) for jessie updates."
+sleep 15
+exit
