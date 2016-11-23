@@ -11,6 +11,7 @@ ruby : Clone only Ruby /source code) repository<br />
 openwrt : clone full repository of Openwrt<br />
 pfsense : Clone full repository of Pfsense<br />
 opnsense : Clone full repository of OPNSense<br />
+dotdeb : Clone full repository of Dotdeb (PHP/Nginx)<br />
 
 repo : nginx server configuration file to be added to "/etc/nginx/sites-enabled/" directory <br />
 
