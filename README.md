@@ -13,7 +13,7 @@ pfsense : Clone full repository of Pfsense<br />
 opnsense : Clone full repository of OPNSense<br />
 dotdeb : Clone full repository of Dotdeb (PHP/Nginx)<br />
 kali : Clone full repository of Kali Linux Wheezy/Jessie <br />
-
+kalisec : Clone full repository of Kali-Security Linux Wheezy/Jessie <br />
 repo : nginx server configuration file to be added to "/etc/nginx/sites-enabled/" directory <br />
 
 note : by default the nginx file is pointed to port 80 , but if you want to user a different port then edit the file and change the listening port<br />
